@@ -1,3 +1,6 @@
+#/usr/bin/env python
+"menu program"
+
 import sys
 import time
 
