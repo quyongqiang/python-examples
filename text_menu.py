@@ -1,4 +1,5 @@
 import sys
+import time
 
 menu = '''
 menu:
@@ -42,3 +43,4 @@ if __name__=='__main__':
                 sys.exit()
             else:
                 print 'input error'
+                time.sleep(1)
