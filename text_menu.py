@@ -1,5 +1,3 @@
-#
-
 import sys
 
 menu = '''
@@ -29,20 +27,18 @@ def avg():
     avg = sum / float(len(list1))
     print 'the average of the list is:',avg
 
-while True:
-    prompt()
-    cmd = raw_input('please input your choice:')
-    try:
-        cmd1 = int(cmd)
-        sum_list = eval(menu_dic[cmd1])()
-    except:
-        if cmd == 'x':
-            sys.exit()
-        else:
-            print 'input error'
 
 
-
-# print menu_dic[cmd1]
-
-
+if __name__=='__main__':
+    while True:
+        prompt()
+        cmd = raw_input('please input your choice:')
+        try:
+            cmd1 = int(cmd)
+            sum_list = eval(menu_dic[cmd1])()
+        except:
+            if cmd == 'x':
+                print 'bye'
+                sys.exit()
+            else:
+                print 'input error'
