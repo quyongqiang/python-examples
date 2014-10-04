@@ -1,18 +1,15 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-  
-# core python programing , 5-5
-"calculate how 105 cents can be made up"
+# 5-5
 
 num = 105
 # res = list1[1,2]
 # print res[-1]
 
-
-# dollor have 1, 5, 10, 25 cents
 list1 = [1, 5, 10, 25]
 x = len(list1)
 print x
-
+list2 = []
 
 def fun(num, x, l):
 #     print num / x
@@ -23,8 +20,11 @@ def fun(num, x, l):
     res = num / l[x]
     num = num % l[x]
     print '%d * %d ' % (res, l[x])
+    list2.append((res, l[x]))
     fun(num, x, l)
 #    fun(num % x, list1.)
 
 a = fun(num, x, list1)
 
+# output the result use list format
+print list2
