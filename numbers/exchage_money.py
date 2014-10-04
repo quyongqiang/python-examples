@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-  
-# 5-5
+# core python programing , 5-5
 "calculate how 105 cents can be made up"
 
 num = 105
