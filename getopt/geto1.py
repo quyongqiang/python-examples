@@ -14,7 +14,7 @@ def pt_arg():
 def main():
     #pt_arg()
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "ho:v", ["help", "output="])
+        opts, args = getopt.getopt(sys.argv[1:], "hvo:x:", ["help", "output="])
     except getopt.GetoptError as err:
         # print help information and exit:
         print str(err) # will print something like "option -a not recognized"
@@ -26,12 +26,17 @@ def main():
     for o, a in opts:
         if o == "-v":
             verbose = True
-	    #print '-v'
+	    print 'you set -v'
         elif o in ("-h", "--help"):
             usage()
             sys.exit()
         elif o in ("-o", "--output"):
-            output = a
+            #output = a
+	    with open ('num', 'w') as n:
+        	n.write(str(a))
+        	n.write('\n')
+	elif o in ("-x"):
+	    print "you set -x %s" % a
         else:
             assert False, "unhandled option"
     # ...
