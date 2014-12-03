@@ -8,6 +8,7 @@ def pt_arg():
     print "sys.argv is: %s" % sys.argv
     print "sys.argv[1:] is: %s" % sys.argv[1:]
     print "sys.argv[:-1] is: %s" % sys.argv[:-1]
+    print "sys.argv[:] is: %s" % sys.argv[:-1]
 
     #print  sys.argv
 
@@ -20,7 +21,7 @@ def main():
         print str(err) # will print something like "option -a not recognized"
         usage()
         sys.exit(2)
-    #pt_arg()
+    pt_arg()
     output = None
     verbose = False
     for o, a in opts:
