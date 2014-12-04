@@ -16,12 +16,13 @@ def main():
     #pt_arg()
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hvo:x:", ["help", "output="])
+	print args[0]
     except getopt.GetoptError as err:
         # print help information and exit:
         print str(err) # will print something like "option -a not recognized"
         usage()
         sys.exit(2)
-    pt_arg()
+#    pt_arg()
     output = None
     verbose = False
     for o, a in opts:
