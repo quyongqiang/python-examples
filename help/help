@@ -1,1 +1,5 @@
-help(module_name)
+help(module)
+help(math)
+
+help(module.def)
+help(math.acos)
