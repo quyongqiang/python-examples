@@ -1,3 +1,7 @@
 import math
+
+dir(module)
 dir(math)
-dir(module_name)
+
+
+dir(math.acos) ?
