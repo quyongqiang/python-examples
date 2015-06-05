@@ -5,3 +5,6 @@
     (env) $ mkdir myproject && cd myproject
     (env) $ djangocms -p . my_demo
     (env) $ python manage.py
+
+# 安装出错 @ dell ctos 
+
