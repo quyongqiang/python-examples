@@ -1,0 +1,7 @@
+# __name__ 在什么情况下会是 "__main__"?怎么又会是其他值呢？
+
+在使用自身的时候，就是main，比如你执行：
+python test.py
+此时在test.py里面的name就是main
+如果你在test2中import test,那么name就是文件名
+
