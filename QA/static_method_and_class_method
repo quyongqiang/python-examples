@@ -1,0 +1,12 @@
+#静态方法和类方法？
+
+静态方法
+  仅是类中的函数，不需要实例
+
+类方法
+  通常的方法需要一个实例(self)作为第一个参数，并且对于（绑定的）方法调用来说，self是自动传递给这个方法的。
+  而对于类方法而言，需要类(cls)而不是实例(self)作为第一个参数。很多人使用cls。
+
+
+# 参考文档
+http://www.pythoncentral.io/difference-between-staticmethod-and-classmethod-in-python/
