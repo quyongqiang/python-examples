@@ -1,0 +1,28 @@
+|--test.py
+|--main.py
+
+# file test.py
+def hello():
+    print("hello")
+
+var1 = "world"
+# end file
+
+# file main.py
+import test
+
+test.hello()
+test.var1
+
+# end file
+
+
+# file main.py
+from test import hello
+from test import var1
+
+hello()
+var1
+
+# end file
+
