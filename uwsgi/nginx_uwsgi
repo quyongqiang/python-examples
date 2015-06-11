@@ -1,6 +1,9 @@
 # ref
 http://dormousehole.readthedocs.org/en/latest/deploying/uwsgi.html
 
+# flask example blueprintexample
+https://github.com/mitsuhiko/flask/tree/master/examples/blueprintexample
+
 # install uwsgi
 pip install uwsgi
 
