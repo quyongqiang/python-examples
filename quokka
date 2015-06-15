@@ -2,3 +2,15 @@
 http://quokkaproject.org/
 
 
+#mongodb 占用3.2G问题解决
+
+# 初始化文件修改
+initial_data.json
+
+# 去掉登录按钮
+
+# 去掉fork按钮
+
+# 网站取名
+
+# 网站域名
