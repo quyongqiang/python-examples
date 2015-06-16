@@ -14,3 +14,8 @@ initial_data.json
 # 网站取名
 
 # 网站域名
+
+groupadd quokka
+useradd -m -g quokka --system quokka
+
+
