@@ -1,0 +1,2 @@
+# start blblueprintexample use uwsgi
+uwsgi -s /tmp/uwsgi.sock --module blueprintexample --callable app --logto=/tmp/uws.log  &
