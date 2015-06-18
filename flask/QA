@@ -1,6 +1,5 @@
-#Q flask command not found
-#A 安装开发版
-
+Q 如何安装开发版
+A  
   $ git clone http://github.com/mitsuhiko/flask.git
   Initialized empty Git repository in ~/dev/flask/.git/
   $ cd flask
@@ -12,8 +11,9 @@
   ...
   Finished processing dependencies for Flask
   
-Q: 如何使用flask命令
-A: pip install flask-script
+Q 如何使用flask命令,  flask command not found
+A pip install flask-script
 
-
+Q 如何在开发模式下，修改动态文件后，让结果加载显示更快，目前重新加载过慢。
+A 
   
