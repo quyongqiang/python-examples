@@ -12,5 +12,8 @@
   ...
   Finished processing dependencies for Flask
   
-  
+Q: 如何使用flask命令
+A: pip install flask-script
+
+
   
