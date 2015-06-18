@@ -1,0 +1,16 @@
+#Q flask command not found
+#A 安装开发版
+
+  $ git clone http://github.com/mitsuhiko/flask.git
+  Initialized empty Git repository in ~/dev/flask/.git/
+  $ cd flask
+  $ virtualenv venv --distribute
+  New python executable in venv/bin/python
+  Installing distribute............done.
+  $ . venv/bin/activate
+  $ python setup.py develop
+  ...
+  Finished processing dependencies for Flask
+  
+  
+  
