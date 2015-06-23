@@ -8,6 +8,8 @@ http://quokkaproject.org/
 initial_data.json
 
 # 去掉登录按钮
+/data/quokka/quokka/themes/default/templates/base.html 88行左右
+
 
 # 去掉fork按钮
 
