@@ -1,0 +1,6 @@
+easy_install
+pip
+virtualenv
+
+ipython
+  增强的交互式python shell
