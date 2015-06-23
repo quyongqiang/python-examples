@@ -6,6 +6,11 @@ Q 解决修改文件后重启慢的问题
 A 
   1. watchdog
   2. 看视频教程
+  3. 配置稍高的机器启动稍快
   
+# 2015-06-20~2015-06-22
+flask-intro https://github.com/Chaniel/flask-intro, the original source is https://github.com/realpython/discover-flask.
+
+
 
 
