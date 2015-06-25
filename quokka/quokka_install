@@ -20,4 +20,5 @@ initial_data.json
 groupadd quokka
 useradd -m -g quokka --system quokka
 
+# logo 问题
 
