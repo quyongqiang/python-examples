@@ -1,0 +1,9 @@
+安装pip时遇到错误
+ImportError: cannot import name HTTPSHandler installing get-pip.py
+
+解决
+先安装 openssl-devel 和openssl
+再重新编译安装python
+
+
+http://stackoverflow.com/questions/24480101/importerror-cannot-import-name-httpshandler-installing-get-pip-py
