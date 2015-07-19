@@ -1,1 +1,4 @@
 pip install flask-migrate
+
+# generate  requirements file
+pip freeze > requirements.txt
