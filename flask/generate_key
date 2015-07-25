@@ -1,0 +1,7 @@
+In [1]: import os
+
+In [2]: os.u
+os.umask     os.uname     os.unlink    os.unsetenv  os.urandom   os.utime     
+
+In [2]: os.urandom(24)
+Out[2]: "\x01\x7f\x07\x9e\xd1hN'e\\K\x18\x81W\x19\x8dN\x96\xa3J\x13}G\xc1"
