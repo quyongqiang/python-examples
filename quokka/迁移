@@ -3,3 +3,5 @@
 yum install gcc
 install py27
 
+pip
+uwsgi
