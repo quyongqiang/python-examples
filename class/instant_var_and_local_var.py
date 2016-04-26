@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-  
-
 class HelloWorld(object):
 	"""test local variablie, instance variable, class variable"""
 	# class variable
-	c_var = "class variable c_var"
-	name = "name at class"
+	name = 1
 	def __init__(self, name):
 		super(HelloWorld, self).__init__()
 		self.name = name
@@ -29,30 +26,9 @@ class HelloWorld(object):
 		print self.name
 		print HelloWorld.name
 
-
+	def get_name(self):
+		print name
 
 h1 = HelloWorld("lily")
-h2 = HelloWorld("ruby")
-print h1.name
-print HelloWorld.name
 
-# 以下意思是调用实例变量c_var, 在实例变量c_var没有定义时，返回了类变量c_var
-print h1.c_var
-
-
-# 定义了实例变量c_var 
-h1.c_var= "c_var changed instance var"
-print h1.c_var	
-print "##"
-
-HelloWorld.c_var = "a"
-print HelloWorld.c_var
-
-
-h1.greet()
-
-print ""
-h1.test_name()
-
-print ""
-h1.pt_name()
+h1.get_name()
