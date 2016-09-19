@@ -1,0 +1,3 @@
+use for in file, same as xreadlines()
+
+xreadlines() is more efficient than readlines()
