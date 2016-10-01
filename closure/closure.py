@@ -1,15 +1,17 @@
 # coding: utf-8
 # 闭包
 
-def out():
-	free_variable = 1
-	print free_variable, "\n"
-	def inner():
-		free_variable += 1
-		# print free_variable, "\n"
-		return free_variable
-	return inner
+def counter(start_at=0):
+	count = [start_at]
+	def incr():
+		count[0] += 1
+		return count[0]
+	return incr
 
 
-f = out()
-f()
+
+count = counter()
+
+count()  
+count()  
+count()  
